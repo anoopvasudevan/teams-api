@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65a6e170b6874ce467fbfd9300c3e9e1",
+    "revision": "74314576c0c74d22e04029603740521a",
     "url": "/teams-api/index.html"
   },
   {
-    "revision": "b6fb3285f7ca7a5a30e2",
+    "revision": "e865b32580b44bdd151b",
     "url": "/teams-api/static/css/main.03441e0d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teams-api/static/js/2.7a5c4745.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6fb3285f7ca7a5a30e2",
-    "url": "/teams-api/static/js/main.99cdd411.chunk.js"
+    "revision": "e865b32580b44bdd151b",
+    "url": "/teams-api/static/js/main.7751de36.chunk.js"
   },
   {
     "revision": "88614d34e399610e66a0",
