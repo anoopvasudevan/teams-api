@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/anoopvasudevan/teams-api/static/css/main.03441e0d.chunk.css",
-    "main.js": "/anoopvasudevan/teams-api/static/js/main.5932245c.chunk.js",
-    "main.js.map": "/anoopvasudevan/teams-api/static/js/main.5932245c.chunk.js.map",
-    "runtime-main.js": "/anoopvasudevan/teams-api/static/js/runtime-main.39ff8046.js",
-    "runtime-main.js.map": "/anoopvasudevan/teams-api/static/js/runtime-main.39ff8046.js.map",
-    "static/js/2.7a5c4745.chunk.js": "/anoopvasudevan/teams-api/static/js/2.7a5c4745.chunk.js",
-    "static/js/2.7a5c4745.chunk.js.map": "/anoopvasudevan/teams-api/static/js/2.7a5c4745.chunk.js.map",
-    "index.html": "/anoopvasudevan/teams-api/index.html",
-    "precache-manifest.798b65d3ce38e7f49d4e1d4a175d595d.js": "/anoopvasudevan/teams-api/precache-manifest.798b65d3ce38e7f49d4e1d4a175d595d.js",
-    "service-worker.js": "/anoopvasudevan/teams-api/service-worker.js",
-    "static/css/main.03441e0d.chunk.css.map": "/anoopvasudevan/teams-api/static/css/main.03441e0d.chunk.css.map",
-    "static/js/2.7a5c4745.chunk.js.LICENSE.txt": "/anoopvasudevan/teams-api/static/js/2.7a5c4745.chunk.js.LICENSE.txt"
+    "main.css": "/teams-api/static/css/main.03441e0d.chunk.css",
+    "main.js": "/teams-api/static/js/main.daf065a2.chunk.js",
+    "main.js.map": "/teams-api/static/js/main.daf065a2.chunk.js.map",
+    "runtime-main.js": "/teams-api/static/js/runtime-main.c839d5b6.js",
+    "runtime-main.js.map": "/teams-api/static/js/runtime-main.c839d5b6.js.map",
+    "static/js/2.7a5c4745.chunk.js": "/teams-api/static/js/2.7a5c4745.chunk.js",
+    "static/js/2.7a5c4745.chunk.js.map": "/teams-api/static/js/2.7a5c4745.chunk.js.map",
+    "index.html": "/teams-api/index.html",
+    "precache-manifest.d2d4d886bb3ff12b9513f620a70e6bd0.js": "/teams-api/precache-manifest.d2d4d886bb3ff12b9513f620a70e6bd0.js",
+    "service-worker.js": "/teams-api/service-worker.js",
+    "static/css/main.03441e0d.chunk.css.map": "/teams-api/static/css/main.03441e0d.chunk.css.map",
+    "static/js/2.7a5c4745.chunk.js.LICENSE.txt": "/teams-api/static/js/2.7a5c4745.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.39ff8046.js",
+    "static/js/runtime-main.c839d5b6.js",
     "static/js/2.7a5c4745.chunk.js",
     "static/css/main.03441e0d.chunk.css",
-    "static/js/main.5932245c.chunk.js"
+    "static/js/main.daf065a2.chunk.js"
   ]
 }
