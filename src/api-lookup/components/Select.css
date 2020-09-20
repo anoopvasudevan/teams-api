@@ -1,0 +1,81 @@
+.SelectContainer {
+  width: 100%;
+  /* position: relative;
+  z-index: 100; */
+  /* display: none; */
+}
+
+.SelectInput input {
+  width: 100%;
+  border: none;
+  height: 2em;
+  padding: 0.5em;
+  font-family: var(--ff-primary);
+  border-radius: 5px;
+  outline: none;
+  /* position: relative; */
+}
+
+.SelectInput input:focus {
+  border: 3px solid var(--clr-accent);
+}
+
+.SelectInput input:focus {
+  border: 3px solid var(--clr-accent);
+}
+
+/* .SelectContainer span {
+    position: absolute;
+    width: .8em;
+    height: .8em;
+    right: .5em;
+    top: .3em;
+    border-left: 3px solid var(--clr-body);
+    border-bottom: 3px solid var(--clr-body);
+    transform: rotate(-45deg);
+} */
+
+/* .SelectInput input::before {
+    content: "HELLO";
+    position: absolute;
+    display: block;
+    width: 2em;
+    height: 2em;
+    border: 2px solid red;
+    background-color: red;
+    top: 0;
+    left: 50px;
+} */
+
+.SelectOptionsContainer {
+  position: relative;
+}
+
+.SelectOptions {
+  box-shadow: 0 0 3px var(--clr-body);
+  border-radius: 5px;
+  margin-top: 0.5em;
+  max-height: 200px;
+  overflow-y: scroll;
+  /* position: absolute;
+  width: 100%;
+  z-index: 2000;
+  background-color: var(--clr-dark); */
+}
+
+.SelectOptions__option {
+  padding: 0.5em;
+  color: var(--clr-light);
+}
+
+.SelectOptions__option:hover {
+  background-color: var(--clr-accent-light);
+}
+
+.SelectOptions__option_selected {
+  background-color: var(--clr-accent);
+}
+
+.SelectOptions__option_focus {
+  background-color: var(--clr-accent-light);
+}

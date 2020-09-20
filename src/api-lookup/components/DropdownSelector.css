@@ -1,0 +1,14 @@
+.DropdownSelector {
+    /* width: 50%; */
+}
+
+.DS__title {
+    font-family: var(--ff-secondary);
+    color: var(--clr-light);
+    font-weight: var(--fw-light);
+    margin-bottom: .3em;
+}
+
+.DS__title_disabled {
+    opacity: 50%;
+ }

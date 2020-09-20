@@ -1,0 +1,11 @@
+.AllQueries__notification {
+  color: var(--clr-light);
+  opacity: 50%;
+}
+
+.AllQueries {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 2rem 2rem;
+  
+}

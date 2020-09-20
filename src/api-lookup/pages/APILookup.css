@@ -1,0 +1,116 @@
+.APILookup {
+  width: 90vw;
+  min-height: 90vh;
+  background-color: var(--clr-dark);
+ position: absolute;
+  top: 5vh;
+  left: 5vw;
+}
+
+/* .APILookup__selectors_wrapper {
+    display: flex;
+} */
+
+.APILookup__selectors_container {
+  max-width: 70%;
+  margin: 3em auto;
+}
+
+.APILookup__selectors {
+  /* width: 80%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.APILookup__selector + .APILookup__selector {
+  margin-left: 3em;
+}
+
+.APILookup__selector {
+  flex-basis: 40%;
+}
+
+.APILookup__search_button {
+  flex-basis: 20%;
+  text-align: right;
+  display: inline-block;
+  margin-top: 1.2rem;
+}
+
+button {
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  padding: 0.7em 1.5em;
+
+  font-family: var(--ff-secondary);
+  color: var(--clr-light);
+  background-color: var(--clr-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: var(--text-shadow);
+  box-shadow: var(--box-shadow);
+  outline: none;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+}
+
+button:disabled {
+  pointer-events: none;
+  cursor: default;
+  filter: opacity(0.5);
+}
+
+button:hover {
+  /* filter: saturate(2); */
+  transform: scale(1.1);
+  box-shadow: var(--box-shadow-jumped);
+}
+
+button:active {
+  transform: scale(1);
+  box-shadow: var(--box-shadow);
+}
+
+.APILookup__queries {
+  max-width: 70%;
+  margin: 3em auto;
+  border: 1px solid var(--clr-body);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  padding: 0.5em;
+  height: 40vh;
+}
+
+.APILookup__queries_box {
+  height: 100%;
+  padding: 1em;
+  overflow-y: scroll;
+}
+
+.APILookup__submit_button {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .APILookup__selectors_container {
+  max-width: 90%;
+  }
+
+  .APILookup__selectors {
+    flex-direction: column;
+  }
+
+  .APILookup__queries {
+    max-width: 90%;
+  }
+
+  .APILookup__selector + .APILookup__selector {
+    margin: 3em 0;
+  }
+
+  .APILookup__search_button {
+    margin: 0 auto;
+  }
+}

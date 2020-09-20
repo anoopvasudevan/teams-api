@@ -1,0 +1,13 @@
+.Header {
+  background-color: var(--clr-accent);
+  display: grid;
+  place-items: center;
+  padding: 1em;
+}
+
+.Header__title {
+  font-family: var(--ff-secondary);
+    color: var(--clr-light);
+    letter-spacing: .05em;
+    text-shadow: var(--text-shadow);
+}

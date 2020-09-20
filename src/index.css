@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --ff-primary: "Raleway", sans-serif;
+  --ff-secondary: 'Merriweather', serif;;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+
+  --clr-light: #ffffff;
+  --clr-dark: #545952;
+  /* --clr-dark: #0056B2; */
+  --clr-black: #000000;
+  --clr-body: #222620;
+  /* --clr-body: #000000d7; */
+  --clr-accent: #9AB291;
+  /* --clr-accent: #0056B2; */
+  
+  --clr-accent-light: #9ab29154;
+
+  --text-shadow: 1px 1px 0px var(--clr-body);
+  --box-shadow: 2px 2px 0px var(--clr-body);
+  --box-shadow-jumped: 3px  3px 1px var(--clr-body);
 }
+
+body {
+  margin: 0;
+  font-family: var(--ff-primary);
+  background-color: var(--clr-body);
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+/* width */
+/* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+} */
+ 
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #888; 
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} */

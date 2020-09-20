@@ -1,0 +1,44 @@
+.Query {
+  color: var(--clr-light);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.3em;
+}
+
+.Query:hover {
+  background-color: var(--clr-accent-light);
+}
+
+.Query__checked {
+  background-color: var(--clr-accent);
+}
+
+.Query input {
+  margin-right: 0.8em;
+  outline: none;
+  appearance: none;
+  width: 0.9rem;
+  height: 0.9rem;
+  background-color: var(--clr-light);
+  cursor: pointer;
+  position: relative;
+  display: grid;
+  place-items: center;
+  transition: transform 200ms ease-in-out;
+}
+
+.Query input:hover {
+  transform: scale(1.2);
+}
+
+.Query input:checked::before {
+  content: "";
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  /* top: .2rem;
+  left: .2rem; */
+  /* background-color: var(--clr-body); */
+  background-color: #436138;
+}
