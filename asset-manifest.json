@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/teams-api/static/css/main.03441e0d.chunk.css",
-    "main.js": "/teams-api/static/js/main.daf065a2.chunk.js",
-    "main.js.map": "/teams-api/static/js/main.daf065a2.chunk.js.map",
+    "main.js": "/teams-api/static/js/main.cc0c110e.chunk.js",
+    "main.js.map": "/teams-api/static/js/main.cc0c110e.chunk.js.map",
     "runtime-main.js": "/teams-api/static/js/runtime-main.c839d5b6.js",
     "runtime-main.js.map": "/teams-api/static/js/runtime-main.c839d5b6.js.map",
-    "static/js/2.7a5c4745.chunk.js": "/teams-api/static/js/2.7a5c4745.chunk.js",
-    "static/js/2.7a5c4745.chunk.js.map": "/teams-api/static/js/2.7a5c4745.chunk.js.map",
+    "static/js/2.a88b7dbe.chunk.js": "/teams-api/static/js/2.a88b7dbe.chunk.js",
+    "static/js/2.a88b7dbe.chunk.js.map": "/teams-api/static/js/2.a88b7dbe.chunk.js.map",
     "index.html": "/teams-api/index.html",
-    "precache-manifest.d2d4d886bb3ff12b9513f620a70e6bd0.js": "/teams-api/precache-manifest.d2d4d886bb3ff12b9513f620a70e6bd0.js",
+    "precache-manifest.f8e5cd610aa10d3fea943aa583780771.js": "/teams-api/precache-manifest.f8e5cd610aa10d3fea943aa583780771.js",
     "service-worker.js": "/teams-api/service-worker.js",
     "static/css/main.03441e0d.chunk.css.map": "/teams-api/static/css/main.03441e0d.chunk.css.map",
-    "static/js/2.7a5c4745.chunk.js.LICENSE.txt": "/teams-api/static/js/2.7a5c4745.chunk.js.LICENSE.txt"
+    "static/js/2.a88b7dbe.chunk.js.LICENSE.txt": "/teams-api/static/js/2.a88b7dbe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c839d5b6.js",
-    "static/js/2.7a5c4745.chunk.js",
+    "static/js/2.a88b7dbe.chunk.js",
     "static/css/main.03441e0d.chunk.css",
-    "static/js/main.daf065a2.chunk.js"
+    "static/js/main.cc0c110e.chunk.js"
   ]
 }
